@@ -21,3 +21,11 @@ This repository contains the notebook file of this project (Project.ipynb), the 
 * Analysing the results of the models
 * Prediction based on user input
 
+## How to replicate this project
+* Prepare the data
+ * Remove missing values
+ * Transform the string values to numeric
+ * Replace the column names or titles in the code with your column names if needed (we have used feature importance and this could differ with your dataset)
+ * Change the user input part in the code according to your data (we print out a lot of text according to our data)
+* Optimize the models as necessary (the parameter values in our models are chosen to give the best results with our data and you might need to change them)
+* Run the code
